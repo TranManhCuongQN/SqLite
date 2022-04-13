@@ -1,0 +1,45 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#009966">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Cập nhật công việc"
+       android:textSize="25sp"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:textColor="#ff6600"
+       android:padding="10dp"
+       />
+
+    <EditText
+       android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên công việc"
+        android:id="@+id/editTenCVEdit"
+        />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"
+            android:id="@+id/btnXacNhan"
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huỷ"
+            android:id="@+id/btnHuy"
+            />
+    </LinearLayout>
+</LinearLayout>

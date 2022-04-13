@@ -1,0 +1,23 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Ghi chú công việc"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#9999cc"
+        android:id="@+id/txtTitle"/>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTitle"
+        android:id="@+id/LvCongViec"/>
+
+</RelativeLayout>
